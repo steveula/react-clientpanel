@@ -3,10 +3,12 @@ import firebase from "firebase";
 import "firebase/firestore";
 import { reactReduxFirebase, firebaseReducer } from "react-redux-firebase";
 import { reduxFirestore, firestoreReducer } from "redux-firestore";
+import { firebaseConfig } from "./credentials";
 // Reducers
 // @todo
 
-const firebaseConfig = {
+// sample firebase config object with credentials
+const sampleFirebaseConfig = {
   apiKey: "sample-key",
   authDomain: "sample-domain",
   databaseURL: "sampleURL",
