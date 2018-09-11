@@ -36,7 +36,7 @@ class Settings extends Component {
         <div className="row">
           <div className="col-md-6">
             <Link to="/" className="btn btn-link">
-              <i className="fas fa-arrow-circle-lef" /> Back To Dashboard
+              <i className="fas fa-arrow-circle-left" /> Back To Dashboard
             </Link>
           </div>
         </div>
